@@ -1,4 +1,4 @@
-# File Backup and Encryption Tool
+# CLI Backup Tool
 
 This tool is a Go program designed to facilitate file backup operations with optional encryption. It provides functionality to copy files from a source directory to a backup directory while offering encryption options using the AES algorithm.
 
