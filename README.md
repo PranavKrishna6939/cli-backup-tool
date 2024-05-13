@@ -12,8 +12,8 @@ $ go run main.go
 User:JJBigDub > copy
 Enter Source Directory: /path/to/source
 Enter Backup Directory: /path/to/backup
-File /path/to/source/test1.txt copied successfully to /path/to/source/test1.txt
-File /path/to/source/test2.txt copied successfully to /path/to/source/test2.txt
+File /path/to/source/test1.txt copied successfully to /path/to/backup/test1.txt
+File /path/to/source/test2.txt copied successfully to /path/to/backup/test2.txt
 All files copied successfully!
 User:JJBigDub >
 ```
@@ -27,8 +27,8 @@ User:JJBigDub > copy -encrypt
 Enter Source Directory: /path/to/source
 Enter Backup Directory: /path/to/backup
 Enter Directory of the Key File: /path/to/key.txt
-File /path/to/source/test1.txt encrypted and copied successfully to /path/to/source/test1.txt
-File /path/to/source/test2.txt encrypted and copied successfully to /path/to/source/test2.txt
+File /path/to/source/test1.txt encrypted and copied successfully to /path/to/backup/test1.txt
+File /path/to/source/test2.txt encrypted and copied successfully to /path/to/backup/test2.txt
 All files copied successfully!
 User:JJBigDub >
 ```
@@ -42,8 +42,8 @@ User:JJBigDub > copy -encrypt-gen
 Enter Source Directory: /path/to/source
 Enter Backup Directory: /path/to/backup
 Random key generated and saved to /path/to/backup/key.txt
-File /path/to/source/test1.txt encrypted and copied successfully to /path/to/source/test1.txt
-File /path/to/source/test2.txt encrypted and copied successfully to /path/to/source/test2.txt
+File /path/to/source/test1.txt encrypted and copied successfully to /path/to/backup/test1.txt
+File /path/to/source/test2.txt encrypted and copied successfully to /path/to/backup/test2.txt
 All files copied successfully!
 User:JJBigDub >
 ```
